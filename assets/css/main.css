@@ -92,9 +92,9 @@ body {
   display: -ms-flex;
   display: flex;
   -moz-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: center;
+  -ms-flex-direction: center;
+  flex-direction: center;
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
@@ -529,11 +529,38 @@ ul.icons {
 
 /* new css for player */
 
+
+
+
+.container
+{
+  position: relative;
+  width: 420px;
+  margin: 30px;
+  margin-left: 930;
+}
+
+.container:after
+{
+  position: absolute;
+  content: '';
+  width: 95%;
+  height: 15px;
+  background: rgba(0,0,0,0.3);
+  display: block;
+  left: 2.5%;
+  bottom: -7px;
+  border-radius: 100%;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+
   .player 
   {
     position: relative;
     background: #199e83;
-    border-radius: 0 0 11px 11px;
+    border-radius: 11px 11px 11px 11px;
     overflow: hidden;
   }
   .player-head 
