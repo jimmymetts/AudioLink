@@ -124,7 +124,7 @@ body {
       padding: 5em 1.25em 1.25em 1.25em; } }
 
 /* BG  - makes background change */
-#bg {
+/* #bg {
   -moz-transition: opacity 2s ease-in-out;
   -webkit-transition: opacity 2s ease-in-out;
   -ms-transition: opacity 2s ease-in-out;
@@ -177,7 +177,7 @@ body {
       -ms-animation-direction: alternate !important;
       animation-direction: alternate !important; }
   body.is-preload #bg {
-    opacity: 0; }
+    opacity: 0; } */
 
 @-moz-keyframes bg {
   0% {
