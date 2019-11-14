@@ -559,8 +559,8 @@ ul.icons {
   .player 
   {
     position: relative;
-    background: #199e83;
-    border-radius: 11px 11px 11px 11px;
+    background: green;
+    border-radius: 14px 14px 14px 14px;
     overflow: hidden;
   }
   .player-head 
